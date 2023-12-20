@@ -4,10 +4,6 @@ import com.shashi.beans.UserBean;
 
 public interface UserService {
 
-	/*
-	 * private String userName; private Long mobileNo; private String emailId;
-	 * private String address; private int pinCode; private String password;
-	 */
 
 	public String registerUser(String userName, Long mobileNo, String emailId, String address, int pinCode,
 			String password);
